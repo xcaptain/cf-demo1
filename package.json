@@ -10,9 +10,12 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
 	"devDependencies": {
+		"@solana/actions": "^1.6.4",
 		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-cloudflare": "^4.7.2",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"safe-buffer": "5",
 		"svelte": "^4.2.7",
 		"svelte-check": "^4.0.0",
 		"typescript": "^5.0.0",
